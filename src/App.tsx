@@ -7,7 +7,8 @@ import {
   VStack,
   Code,
   Grid,
-  theme,
+  Button,
+  theme
 } from "@chakra-ui/react"
 import { ColorModeSwitcher } from "./ColorModeSwitcher"
 import { Logo } from "./Logo"
@@ -22,6 +23,8 @@ export const App = () => (
           <Text>
             Edit <Code fontSize="xl">src/App.tsx</Code> and save to reload.
           </Text>
+          <Code>test abcd</Code>
+          <Button>test</Button>
           <Link
             color="teal.500"
             href="https://chakra-ui.com"
@@ -29,7 +32,7 @@ export const App = () => (
             target="_blank"
             rel="noopener noreferrer"
           >
-            Learn Chakra
+            Learn Chakra-UI
           </Link>
         </VStack>
       </Grid>
